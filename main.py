@@ -113,11 +113,11 @@ while running:
 
         enemyX[i]+= eX_Change[i]
         if enemyX[i]<=0:
-            eX_Change[i] = 0.4
+            eX_Change[i] = 0.5
             enemyY[i]+= eY_Change[i]
 
         elif enemyX[i]>=950:
-            eX_Change[i] = -0.4
+            eX_Change[i] = -0.5
             enemyY[i]+= eY_Change[i]
 
 
