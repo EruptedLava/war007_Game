@@ -44,8 +44,8 @@ for i in range(no_of_enemys):
     enemyimg.append(pygame.image.load("enemy.png"))
     enemyX.append(random.randint(0,800))
     enemyY.append(random.randint(50,150))
-    eX_Change.append(0.5)
-    eY_Change.append(40)
+    eX_Change.append(2)
+    eY_Change.append(15)
 
 
 # Bullet
@@ -54,7 +54,7 @@ bulletimg = pygame.image.load("bullet1.png")
 bulletX = 0
 bulletY = 480
 bX_Change = 0
-bY_Change = 2
+bY_Change = 7
 bullet_state = "ready"
 
 # Scoreboard
@@ -113,11 +113,11 @@ while running:
 
         enemyX[i]+= eX_Change[i]
         if enemyX[i]<=0:
-            eX_Change[i] = 0.5
+            eX_Change[i] = 2
             enemyY[i]+= eY_Change[i]
 
         elif enemyX[i]>=950:
-            eX_Change[i] = -0.5
+            eX_Change[i] = -2
             enemyY[i]+= eY_Change[i]
 
 
@@ -153,10 +153,10 @@ while running:
             # print("KEY PRESSED")
 
             if event.key == pygame.K_LEFT:
-                X_Change = -0.4
+                X_Change = -2
                 # print("left key is pressed")
             if event.key == pygame.K_RIGHT:
-                X_Change = 0.4
+                X_Change = 2
                 # print("right key is pressed")
 
             if event.key == pygame.K_SPACE:
