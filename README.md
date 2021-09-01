@@ -1,23 +1,34 @@
 # war007
 
-War007 is game created in python using pygame module
+War007 is game created in python3.9 using pygame module
 this game is created by [Eruptedlava / Sarthak Sharma](https://t.me/Eruptedlava)
 
-## Installation
 
+
+### Requirements
+- [ python3 ](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [pip3](https://realpython.com/what-is-pip/)
+
+
+
+
+## Installation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install pygame.
 
 ```bash
 pip install pygame
 ```
 
+
 ## Usage
-### windows users can run this directly by double clicking main.py
+#### NOTE : Windows users can run this directly by double clicking main.py
 #### First open your terminal in war007 folder then execute the following command (For Linux users )
 
 ```
 python3 main.py
 ```
+
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -25,11 +36,11 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 
- .
-## License
-MIT License
 
-Copyright (c) [2021] War_007
+## License
+``` MIT License
+
+Copyright (C) [2021] War_007
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "war 007"), to deal
@@ -48,3 +59,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
+## [GNU License](https://github.com/EruptedLava/war007_Game/blob/main/LICENSE.txt)
+
+ #### PC Requirements
+- RAM: `2gb`
+- Cores: `1`
